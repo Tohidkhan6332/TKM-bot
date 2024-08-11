@@ -106,7 +106,7 @@ let { reagir } = require(__dirname + "/framework/app");
 var session = conf.session;
 const prefixe = conf.PREFIXE;
 // channel link
-global.link = "https://whatsapp.com/channel/0029VaKjSra9WtC0kuJqvl0g";
+global.link = "https://chat.whatsapp.com/FPQYQkbqzqw8XOGdDWoxwu";
 
 let lastApiCall = 0;
 async function authentification() {
@@ -305,7 +305,7 @@ setTimeout(() => {
                     }
                 );
             }
-            console.log("\t [][]...{TKM-bot}...[][]");
+            console.log("\t [][]...{TOHID-bot}...[][]");
             console.log("=========== New message ===========");
             if (verifGroupe) {
                 console.log("message comming from the group : " + nomGroupe);
@@ -671,7 +671,7 @@ setTimeout(() => {
                     const gifLink =
                         "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
                     var sticker = new Sticker(gifLink, {
-                        pack: "TKM-bot",
+                        pack: "TOHID-bot",
                         author: conf.OWNER_NAME,
                         type: StickerTypes.FULL,
                         categories: ["🤩", "🎉"],
@@ -1310,7 +1310,7 @@ setTimeout(() => {
                 if (conf.DP.toLowerCase() === "yes") {
                     let cmsg = `
 ╔───⬡
-┃ ┃⬡TKM bot⬡┃
+┃ ┃⬡TOHID bot⬡┃
 ┃    Prefix : [ ${prefixe} ]
 ┃    Mode :${md}
 ┃    Total Commandes : ${evt.cm.length}︎
@@ -1320,9 +1320,9 @@ setTimeout(() => {
  report any. problems to the devs:)
  Thanks for supporting
  this project
- property of Cod3Uchiha
+ property of tohidkhan6332
  property of Takudzwa Mlambo
- © Cod3Uchiha
+ © tohidkhan6332
  © Takudzwa Mlambo
 ╚─────────────────···▸▸`;
                     await zk.sendMessage(zk.user.id, {
