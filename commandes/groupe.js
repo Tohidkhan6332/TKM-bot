@@ -32,13 +32,13 @@ zokou({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, z
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   var tag = ""; 
   tag += `========================\n  
-        ⬡ ┃TKM bot┃ ⬡
+        ⬡ ┃TOHID bot┃ ⬡
 ========================\n
 👥 Group : ${nomGroupe} 🚀 
 👤 Autor : *${nomAuteurMessage}* 👋 
 📜 Message : *${mess}* 📝
 
-⬡keep using⬡┃TKM bot┃⬡
+⬡keep using⬡┃TOHID bot┃⬡
 ========================\n
 \n
 
