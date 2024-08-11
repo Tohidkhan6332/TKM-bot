@@ -22,7 +22,7 @@ zokou({ nomCom: "menu3", categorie: "Menu" }, async (dest, zk, commandeOptions) 
     const date = moment.tz("asia/karachi").format("DD/MM/YYYY");
     console.log("date" + date);
     console.log("temps " + temps);
-    let menuMsg = "  ╩═══ * TKM-bot * ╩═══\n\n";
+    let menuMsg = "  ╩═══ * TOHID-bot * ╩═══\n\n";
     /*menuMsg+=`
     
     
@@ -67,9 +67,9 @@ zokou({ nomCom: "menu3", categorie: "Menu" }, async (dest, zk, commandeOptions) 
             menuMsg += "\t  ║ " + cmd + "" + " \n";
         }
     }
-    var link = "https://telegra.ph/file/e07a3d933fb4cad0b3791.jpg";
+    var link = "https://telegra.ph/file/042cd0b6121a7923fd5d2.jpg";
     try {
-        zk.sendMessage(dest, { image: { url: link }, caption: menuMsg, footer: "©TKM INC" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: link }, caption: menuMsg, footer: "©TOHID INC" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
